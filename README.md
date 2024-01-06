@@ -4,10 +4,3 @@ This repository is a modified version of the original [Spring Boot H2 Database C
 
 For more detail on the original project, please visit:
 > [Spring Boot JPA + H2 example: Build a CRUD Rest APIs](https://www.bezkoder.com/spring-boot-jpa-h2-example/)
-
-## Modifications
-
-Here are the key modifications made for the TFSD course:
-
-- [List of changes or improvements made during the TFSD course]
-- [Any specific instructions or details related to the TFSD course]

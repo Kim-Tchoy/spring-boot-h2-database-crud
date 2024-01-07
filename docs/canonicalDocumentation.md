@@ -11,7 +11,7 @@ To install and set up the project, follow these steps:
 
 ```bash
 # Example command for installation
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Kim-Tchoy/spring-boot-h2-database-crud.git
 cd your-repository
 mvn clean install
 ```

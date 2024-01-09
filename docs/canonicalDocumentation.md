@@ -40,3 +40,9 @@ This section outlines the modifications made to the project since the initial ph
 
 - **Static Code Analysis:** Configured Checkstyle and Error Prone for static code analysis.
   - Ensured adherence to coding standards and identified potential issues during compilation.
+
+## Dockerization of the Spring Boot application
+
+- **Dockerization:** I dockerized the Spring Boot application, every informations about how to run it are in \toDockerize\README.md
+
+- **TODO7's files analysis:** The analysis can be found at \docs\ToDo_7_Analysis.txt

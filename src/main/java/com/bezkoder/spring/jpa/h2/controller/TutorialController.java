@@ -60,6 +60,12 @@ public class TutorialController {
     }
   }
 
+  @GetMapping("/")
+  public String home() {
+      return "index"; // or the name of your HTML template
+  }
+
+
   @PostMapping("/tutorials")
   public ResponseEntity<Tutorial> createTutorial(@RequestBody Tutorial tutorial) {
     try {

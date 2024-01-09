@@ -1,0 +1,11 @@
+# Dockerfile
+The Dockerfile file is used to build a Docker image for Eclipse Mosquitto MQTT Broker.
+From its code we can see that it uses the Alpine Linux base image.
+I asume it install several dependencies from source, as well as downloading and compiling libwebsockets and Mosquitto from source.
+At the end, the code does 2 main tasks:
+ - Creating the mosquitto user and group, setting up necessary directories, and installs compiled binaries.
+ - Configuring the entry point script, exposing port 1883, and seting the default command.
+
+# docker-entrypoint.sh
+This is a shell script executed as the entry point when the Docker container starts.
+Its actions are setting  permissions for the mosquitto directory if the script is run as the root user, and executing the passed command or arguments.
